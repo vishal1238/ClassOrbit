@@ -117,25 +117,25 @@ Clean, responsive interface that works seamlessly across desktop and mobile — 
 
 ```
 ┌──────────────────────────────────────────┐
-│              React.js Frontend            │
-│  ┌──────────┐  ┌──────────┐  ┌────────┐ │
-│  │Auth Pages│  │Dashboard │  │  Class │ │
-│  │  Login/  │  │Instructor│  │  Room  │ │
-│  │ Register │  │ Student  │  │WebRTC  │ │
-│  └──────────┘  └──────────┘  └────────┘ │
+│              React.js Frontend           │
+│  ┌──────────┐  ┌──────────┐  ┌────────┐  │
+│  │Auth Pages│  │Dashboard │  │  Class │  │
+│  │  Login/  │  │Instructor│  │  Room  │  │
+│  │ Register │  │ Student  │  │WebRTC  │  │
+│  └──────────┘  └──────────┘  └────────┘  │
 └────────────────────┬─────────────────────┘
                      │ HTTP / WebSocket
 ┌────────────────────▼─────────────────────┐
-│          Node.js + Express.js             │
-│  ┌──────────┐  ┌──────────┐  ┌────────┐ │
-│  │   Auth   │  │  Class   │  │ Socket │ │
-│  │Middleware│  │  Routes  │  │  .io   │ │
-│  │JWT Verify│  │  RBAC    │  │Server  │ │
-│  └──────────┘  └──────────┘  └────────┘ │
+│          Node.js + Express.js            │
+│  ┌──────────┐  ┌──────────┐  ┌────────┐  │
+│  │   Auth   │  │  Class   │  │ Socket │  │
+│  │Middleware│  │  Routes  │  │  .io   │  │
+│  │JWT Verify│  │  RBAC    │  │Server  │  │
+│  └──────────┘  └──────────┘  └────────┘  │
 └────────────────────┬─────────────────────┘
                      │
 ┌────────────────────▼─────────────────────┐
-│               MongoDB Atlas               │
+│               MongoDB Atlas              │
 │   Users │ Classes │ Sessions │ Messages  │
 └──────────────────────────────────────────┘
 ```
@@ -152,7 +152,7 @@ Clean, responsive interface that works seamlessly across desktop and mobile — 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/classorbit.git
+git clone https://github.com/vishal1238/classorbit.git
 cd classorbit
 ```
 
@@ -279,25 +279,20 @@ git push origin feature/amazing-feature
 All contributions, bug reports, and suggestions are welcome!
 
 ---
-
-## 📄 License
-
-Distributed under the **MIT License**. See [LICENSE](LICENSE) for more information.
-
 ---
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:0a4a6e,100:0a0f1e&height=130&section=footer" width="100%"/>
 
-**Crafted with ❤️ by [Your Name](https://github.com/yourusername)**
+**Crafted with ❤️ by Vishal Gupta(https://github.com/vishal1238)**
 
 *"Every great class starts with showing up. ClassOrbit makes sure you never miss one."*
 
 <br/>
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/classorbit?style=social)](https://github.com/yourusername/classorbit)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/classorbit?style=social)](https://github.com/vishal1238/classorbit)
 &nbsp;
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/classorbit?style=social)](https://github.com/yourusername/classorbit)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/classorbit?style=social)](https://github.com/vishal1238/classorbit)
 
 </div>
